@@ -22,8 +22,8 @@ const translations: Record<Language, TranslationStrings> = {
     },
     hero: {
       label: 'Fremtidens kommunikation',
-      title: 'Ny tænkning inden for',
-      titleHighlight: 'mobil kommunikation',
+      title: 'Mobil kommunikation',
+      titleHighlight: 'gjort simpelt',
       subtitle: 'Lad AI-agenter kommunikere via MCP og LLM — automatisk, intelligent og personligt. Skriv hvad du vil opnå, og lad platformen klare resten.',
       promptPlaceholder: 'Beskriv din kommunikationsopgave — f.eks. "Send påmindelse til alle kunder der ikke har betalt"',
       promptButton: 'Kør agent',
@@ -90,8 +90,8 @@ const translations: Record<Language, TranslationStrings> = {
     },
     hero: {
       label: 'The future of communication',
-      title: 'New thinking in',
-      titleHighlight: 'mobile communication',
+      title: 'Mobile communication',
+      titleHighlight: 'made simple',
       subtitle: 'Let AI agents communicate via MCP and LLM — automatically, intelligently, and personally. Describe what you want to achieve, and let the platform handle the rest.',
       promptPlaceholder: 'Describe your communication task — e.g. "Send a reminder to all unpaid customers"',
       promptButton: 'Run agent',
