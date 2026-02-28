@@ -8,6 +8,7 @@ type TranslationStrings = {
   channels: { label: string; title: string; subtitle: string; byop: string; byopDesc: string; managed: string; managedDesc: string; sms: string; smsDesc: string; rcs: string; rcsDesc: string; email: string; emailDesc: string; whatsapp: string; whatsappDesc: string };
   pricing: { label: string; title: string; subtitle: string; feature1: string; feature1Desc: string; feature2: string; feature2Desc: string; feature3: string; feature3Desc: string };
   cta: { title: string; subtitle: string; button: string; secondary: string };
+  about: { label: string; title: string; bio1: string; bio2: string; bio3: string; competenciesTitle: string; competencies: string[] };
   footer: { tagline: string; product: string; company: string; legal: string; about: string; careers: string; blog: string; terms: string; privacy: string; cookies: string; api: string; integrations: string; status: string; copyright: string };
 };
 
@@ -62,6 +63,15 @@ const translations: Record<Language, TranslationStrings> = {
       subtitle: 'Start gratis i dag og oplev hvordan AI-drevet kommunikation kan transformere din virksomhed.',
       button: 'Opret gratis konto',
       secondary: 'Book en demo',
+    },
+    about: {
+      label: 'Om os',
+      title: 'Menneskerne bag messaging.dk',
+      bio1: 'Søren Sundahl har en solid baggrund inden for mobil- og IT-branchen. Han grundlagde Cool Group, som modtog seks Gazelle-priser i træk, og solgte senere virksomheden til LINK Mobility Group.',
+      bio2: 'Efter salget fortsatte Søren i LINK Mobility som en del af lederteamet, hvor han fik ansvaret for virksomhedens opkøbsstrategi med ambitionen om at gøre LINK Mobility til Europas største aktør inden for mobil kommunikation.',
+      bio3: 'I 2018 solgte Søren sammen med ledelsesteamet selskabet til den amerikanske kapitalfond Abry Partners. Efter kun to år blev selskabet gennoteret på børsen i Oslo — i dag med en markedsværdi på 7 milliarder kroner.',
+      competenciesTitle: 'Kompetenceområder',
+      competencies: ['Opskalering af startups', 'Forretningsstrategi & internationalisering', 'Netværksopbygning & kapitaltilførsel', 'Teknologi & innovation'],
     },
     footer: {
       tagline: 'Fremtidens kommunikationsplatform — drevet af AI-agenter og MCP.',
@@ -130,6 +140,15 @@ const translations: Record<Language, TranslationStrings> = {
       subtitle: 'Start free today and experience how AI-powered communication can transform your business.',
       button: 'Create free account',
       secondary: 'Book a demo',
+    },
+    about: {
+      label: 'About us',
+      title: 'The people behind messaging.dk',
+      bio1: 'Søren Sundahl has a strong background in the mobile and IT industry. He founded Cool Group, which received six consecutive Gazelle awards, and later sold the company to LINK Mobility Group.',
+      bio2: 'After the sale, Søren continued at LINK Mobility as part of the leadership team, taking responsibility for the company\'s acquisition strategy with the ambition of making LINK Mobility the largest player in mobile communication in Europe.',
+      bio3: 'In 2018, Søren and the management team sold the company to US private equity firm Abry Partners. After just two years, the company was relisted on the Oslo Stock Exchange — today with a market value of 7 billion DKK.',
+      competenciesTitle: 'Areas of expertise',
+      competencies: ['Scaling startups', 'Business strategy & internationalization', 'Network building & capital raising', 'Technology & innovation'],
     },
     footer: {
       tagline: 'The communication platform of the future — powered by AI agents and MCP.',
