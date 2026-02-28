@@ -2,6 +2,7 @@ import { LanguageProvider } from '@/hooks/useLanguage';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import ChannelsSection from '@/components/ChannelsSection';
+import PricingSection from '@/components/PricingSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
 
@@ -12,6 +13,7 @@ const Index = () => {
         <Navbar />
         <HeroSection />
         <ChannelsSection />
+        <PricingSection />
         <CtaSection />
         <Footer />
       </div>
