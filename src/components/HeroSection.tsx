@@ -89,7 +89,7 @@ const HeroSection = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-16 flex flex-wrap justify-center gap-3"
         >
-          {['MCP Protocol', 'LLM Agents', 'Multi-channel', 'Real-time'].map((tag) => (
+          {['MCP Protocol', 'NLP', 'LLM Agents', 'Multi-channel', 'Real-time'].map((tag) => (
             <span key={tag} className="glass-card px-4 py-2 rounded-full text-xs font-medium text-muted-foreground">
               {tag}
             </span>
