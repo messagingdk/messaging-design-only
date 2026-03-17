@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="#product" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t.nav.product}</a>
           <a href="#channels" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t.nav.channels}</a>
-          <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t.nav.pricing}</a>
+          <a href="/priser" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t.nav.pricing}</a>
           <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t.nav.contact}</a>
         </div>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
         >
           <a href="#product" className="text-sm text-muted-foreground">{t.nav.product}</a>
           <a href="#channels" className="text-sm text-muted-foreground">{t.nav.channels}</a>
-          <a href="#pricing" className="text-sm text-muted-foreground">{t.nav.pricing}</a>
+          <a href="/priser" className="text-sm text-muted-foreground">{t.nav.pricing}</a>
           <a href="#contact" className="text-sm text-muted-foreground">{t.nav.contact}</a>
           <button onClick={toggleLang} className="flex items-center gap-1.5 text-sm text-muted-foreground">
             <Globe className="w-4 h-4" />
