@@ -83,25 +83,46 @@ const PricingContent = () => {
               {nordicCountries.map((c, i) => (
                 <motion.div
                   key={c.prefix}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.2 + i * 0.1 }}
-                  className="glass-card-hover rounded-2xl p-8 text-center group"
+                  initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  transition={{ duration: 0.5, delay: 0.2 + i * 0.15, type: 'spring', stiffness: 120 }}
+                  whileHover={{ y: -8, scale: 1.02 }}
+                  className="relative rounded-2xl p-[1px] group cursor-default overflow-hidden"
                 >
-                  <div className="text-5xl mb-4">{c.flag}</div>
-                  <h3 className="font-display text-xl font-bold text-foreground mb-1">
-                    {c.name}
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-5">{c.prefix}</p>
-                  <div className="flex items-baseline justify-center gap-1.5">
-                    <span className="font-display text-3xl font-bold text-gradient">
-                      {c.priceDKK.toFixed(2)}
-                    </span>
-                    <span className="text-sm text-muted-foreground font-medium">DKK</span>
+                  {/* Animated gradient border */}
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/40 via-transparent to-primary/20 opacity-60 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary/0 via-primary/30 to-primary/0 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-700" />
+
+                  {/* Card inner */}
+                  <div className="relative rounded-2xl bg-card/80 backdrop-blur-xl p-8 text-center h-full">
+                    {/* Subtle radial glow */}
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-32 bg-primary/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                    <div className="relative">
+                      <div className="text-6xl mb-5 drop-shadow-lg transition-transform duration-300 group-hover:scale-110">
+                        {c.flag}
+                      </div>
+                      <h3 className="font-display text-xl font-bold text-foreground mb-1">
+                        {c.name}
+                      </h3>
+                      <p className="text-sm text-muted-foreground mb-6 font-mono">{c.prefix}</p>
+
+                      {/* Price highlight */}
+                      <div className="relative inline-flex flex-col items-center">
+                        <div className="flex items-baseline gap-1.5">
+                          <span className="font-display text-4xl font-extrabold text-gradient tracking-tight">
+                            {c.priceDKK.toFixed(2)}
+                          </span>
+                          <span className="text-base text-muted-foreground font-semibold">DKK</span>
+                        </div>
+                        <div className="mt-1 h-px w-16 bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+                      </div>
+
+                      <p className="text-xs text-muted-foreground mt-4 font-mono tracking-wide">
+                        €{c.priceEUR.toFixed(4)} pr. SMS
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-xs text-muted-foreground mt-2 font-mono">
-                    €{c.priceEUR.toFixed(4)} pr. SMS
-                  </p>
                 </motion.div>
               ))}
             </div>
