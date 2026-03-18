@@ -31,7 +31,6 @@ const companies: Company[] = [
     description: 'AI-drevet kommunikationsplatform',
     color: 'hsl(192 85% 55%)',
     team: [
-      { name: 'Christian Jydby', title: 'Chief Commercial Officer', photo: christianPhoto, initials: 'CJ' },
       { name: 'Bjørn Hansen', title: 'Technical Supporter & Operations', photo: bjornPhoto, initials: 'BH' },
     ],
   },
