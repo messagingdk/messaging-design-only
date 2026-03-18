@@ -4,6 +4,8 @@ import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import { Building2, Globe, ChevronDown, Users } from 'lucide-react';
 import sorenPhoto from '@/assets/soren-sundahl.png';
+import christianPhoto from '@/assets/christian-jydby.jpg';
+import bjornPhoto from '@/assets/bjorn-hansen.jpg';
 
 interface TeamMember {
   name: string;
