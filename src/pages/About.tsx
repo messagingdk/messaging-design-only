@@ -34,12 +34,10 @@ const companies: Company[] = [
     description: 'Webbureau & digital markedsføring',
     color: 'hsl(38 92% 50%)',
     team: [
-      { name: 'Benjamin Fabricius Eriksen', title: 'Team Lead & Webudvikler', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Benjamin.png', initials: 'BF' },
       { name: 'Emil Hajjar Thøgersen', title: 'Webudvikler', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Emil.png', initials: 'EH' },
       { name: 'Dennis Jørgensen', title: 'Online Marketing Konsulent', photo: 'https://stepupmedia.dk/wp-content/uploads/2025/01/Dennis.png', initials: 'DJ' },
       { name: 'Steffen Johannsen', title: 'Webudvikler', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Steffen.png', initials: 'SJ' },
-      { name: 'Christopher Schwaner', title: 'Grafisk Designer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Christopher.png', initials: 'CS' },
-      { name: 'Søren Pedersen', title: 'SEO Tekstforfatter', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Soeren-P.png', initials: 'SP' },
+      { name: 'Christopher Schwaner', title: 'Grafisk Designer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/team-chris.png', initials: 'CS' },
     ],
   },
   {
