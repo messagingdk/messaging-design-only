@@ -28,7 +28,10 @@ const companies: Company[] = [
     domain: 'messaging.dk',
     description: 'AI-drevet kommunikationsplatform',
     color: 'hsl(192 85% 55%)',
-    team: [],
+    team: [
+      { name: 'Christian Jydby', title: 'Chief Commercial Officer', photo: christianPhoto, initials: 'CJ' },
+      { name: 'Bjørn Hansen', title: 'Technical Supporter & Operations', photo: bjornPhoto, initials: 'BH' },
+    ],
   },
   {
     name: 'StepUp Media',
