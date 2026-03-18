@@ -6,6 +6,8 @@ import { Building2, Globe, ChevronDown, Users } from 'lucide-react';
 import sorenPhoto from '@/assets/soren-sundahl.png';
 import christianPhoto from '@/assets/christian-jydby.jpg';
 import bjornPhoto from '@/assets/bjorn-hansen.jpg';
+import tbdPhoto from '@/assets/ceo-tbd.jpg';
+import bettinaPhoto from '@/assets/bettina-yde.jpg';
 
 interface TeamMember {
   name: string;
@@ -29,7 +31,6 @@ const companies: Company[] = [
     description: 'AI-drevet kommunikationsplatform',
     color: 'hsl(192 85% 55%)',
     team: [
-      { name: 'Christian Jydby', title: 'Chief Commercial Officer', photo: christianPhoto, initials: 'CJ' },
       { name: 'Bjørn Hansen', title: 'Technical Supporter & Operations', photo: bjornPhoto, initials: 'BH' },
     ],
   },
@@ -207,6 +208,39 @@ const AboutContent = () => {
                 <a href="https://capexconnect.dk" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-xs hover:text-primary transition-colors">
                   capexconnect.dk
                 </a>
+              </div>
+
+              {/* CapExConnect team */}
+              <div className="mt-6 pt-5 border-t border-border">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={christianPhoto} alt="Christian Jydby" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">Christian Jydby</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Commercial Officer</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={tbdPhoto} alt="TBD — CFO" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">TBD</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Financial Officer (CFO)</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={bettinaPhoto} alt="Bettina Yde" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">Bettina Yde</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Head of Office</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>
