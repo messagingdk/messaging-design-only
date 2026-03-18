@@ -40,10 +40,10 @@ const companies: Company[] = [
     description: 'Webbureau & digital markedsføring',
     color: 'hsl(38 92% 50%)',
     team: [
-      { name: 'Emil Hajjar Thøgersen', title: 'Webudvikler', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Emil.png', initials: 'EH' },
-      { name: 'Dennis Jørgensen', title: 'Online Marketing Konsulent', photo: 'https://stepupmedia.dk/wp-content/uploads/2025/01/Dennis.png', initials: 'DJ' },
-      { name: 'Steffen Johannsen', title: 'Webudvikler', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Steffen.png', initials: 'SJ' },
-      { name: 'Christopher Schwaner', title: 'Grafisk Designer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/team-chris.png', initials: 'CS' },
+      { name: 'Emil Hajjar Thøgersen', title: 'Web Developer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Emil.png', initials: 'EH' },
+      { name: 'Dennis Jørgensen', title: 'Online Marketing Consultant', photo: 'https://stepupmedia.dk/wp-content/uploads/2025/01/Dennis.png', initials: 'DJ' },
+      { name: 'Steffen Johannsen', title: 'Web Developer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/Steffen.png', initials: 'SJ' },
+      { name: 'Christopher Schwaner', title: 'Graphic Designer', photo: 'https://stepupmedia.dk/wp-content/uploads/2024/06/team-chris.png', initials: 'CS' },
     ],
   },
   {
@@ -52,7 +52,7 @@ const companies: Company[] = [
     description: 'IT-løsninger & rådgivning',
     color: 'hsl(152 60% 50%)',
     team: [
-      { name: 'Berat Brahimi', title: 'Partner | Hostingekspert & Infrastruktur Specialist', photo: 'https://hostkon.it/wp-content/uploads/2022/09/Berat-Brahimi-2022-scaled.webp', initials: 'BB' },
+      { name: 'Berat Brahimi', title: 'Partner | Hosting Expert & Infrastructure Specialist', photo: 'https://hostkon.it/wp-content/uploads/2022/09/Berat-Brahimi-2022-scaled.webp', initials: 'BB' },
     ],
   },
 ];
