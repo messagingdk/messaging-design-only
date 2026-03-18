@@ -219,7 +219,7 @@ const AboutContent = () => {
                     </div>
                     <div>
                       <p className="text-foreground font-medium text-xs leading-tight">Christian Jydby</p>
-                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Commercial Officer</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Commercial Officer (CCO)</p>
                     </div>
                   </div>
                   <div className="flex flex-col items-center gap-2 text-center">
