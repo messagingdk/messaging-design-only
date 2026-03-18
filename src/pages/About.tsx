@@ -6,6 +6,8 @@ import { Building2, Globe, ChevronDown, Users } from 'lucide-react';
 import sorenPhoto from '@/assets/soren-sundahl.png';
 import christianPhoto from '@/assets/christian-jydby.jpg';
 import bjornPhoto from '@/assets/bjorn-hansen.jpg';
+import tbdPhoto from '@/assets/ceo-tbd.jpg';
+import bettinaPhoto from '@/assets/bettina-yde.jpg';
 
 interface TeamMember {
   name: string;
