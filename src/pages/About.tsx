@@ -209,6 +209,39 @@ const AboutContent = () => {
                   capexconnect.dk
                 </a>
               </div>
+
+              {/* CapExConnect team */}
+              <div className="mt-6 pt-5 border-t border-border">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={christianPhoto} alt="Christian Jydby" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">Christian Jydby</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Commercial Officer</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={tbdPhoto} alt="TBD — CFO" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">TBD</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Chief Financial Officer (CFO)</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 text-center">
+                    <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border bg-muted">
+                      <img src={bettinaPhoto} alt="Bettina Yde" className="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div>
+                      <p className="text-foreground font-medium text-xs leading-tight">Bettina Yde</p>
+                      <p className="text-muted-foreground text-[10px] mt-0.5">Head of Office</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </motion.div>
 
