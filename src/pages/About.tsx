@@ -4,6 +4,8 @@ import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import { Building2, Globe, ChevronDown, Users } from 'lucide-react';
 import sorenPhoto from '@/assets/soren-sundahl.png';
+import christianPhoto from '@/assets/christian-jydby.jpg';
+import bjornPhoto from '@/assets/bjorn-hansen.jpg';
 
 interface TeamMember {
   name: string;
@@ -26,7 +28,10 @@ const companies: Company[] = [
     domain: 'messaging.dk',
     description: 'AI-drevet kommunikationsplatform',
     color: 'hsl(192 85% 55%)',
-    team: [],
+    team: [
+      { name: 'Christian Jydby', title: 'Chief Commercial Officer', photo: christianPhoto, initials: 'CJ' },
+      { name: 'Bjørn Hansen', title: 'Technical Supporter & Operations', photo: bjornPhoto, initials: 'BH' },
+    ],
   },
   {
     name: 'StepUp Media',
