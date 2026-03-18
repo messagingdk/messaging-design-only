@@ -46,7 +46,7 @@ const companies: Company[] = [
     description: 'IT-løsninger & rådgivning',
     color: 'hsl(152 60% 50%)',
     team: [
-      { name: 'Berat Brahimi', title: 'Stifter & IT-konsulent', photo: 'https://hostkon.it/wp-content/uploads/2022/09/Berat-Brahimi-2022-scaled.webp', initials: 'BB' },
+      { name: 'Berat Brahimi', title: 'Partner | Hostingekspert & Infrastruktur Specialist', photo: 'https://hostkon.it/wp-content/uploads/2022/09/Berat-Brahimi-2022-scaled.webp', initials: 'BB' },
     ],
   },
 ];
